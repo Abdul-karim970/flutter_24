@@ -15,7 +15,8 @@ class MyApp extends StatelessWidget {
       designSize: Size(390, 845),
       builder: (context, child) {
         return MaterialApp(
-          title: 'F24 Flutter',
+          // Changed by Abdul Karim
+          title: 'F24 Flutter App',
           theme: ThemeData(colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple)),
           onGenerateRoute: onGenerateRoute,
           initialRoute: AppRoutes.home,
